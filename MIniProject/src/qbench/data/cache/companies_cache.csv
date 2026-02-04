@@ -1,0 +1,6 @@
+id,name,sector,country,year_founded,website
+C001,QuantumX Systems,Hardware,USA,2018,https://example.com/quantumx
+C002,QubitWorks,Software,India,2020,https://example.com/qubitworks
+C003,Entangle Labs,Cloud,UK,2017,https://example.com/entangle
+C004,PhotonQ,Hardware,Germany,2016,https://example.com/photonq
+C005,SuperposAI,Software,Canada,2019,https://example.com/superposai

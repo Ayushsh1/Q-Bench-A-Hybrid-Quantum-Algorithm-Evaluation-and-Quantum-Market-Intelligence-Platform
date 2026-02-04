@@ -1,0 +1,12 @@
+qiskit==1.1.0
+qiskit-aer==0.14.2
+flask==3.0.3
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.9.0
+requests==2.32.3
+beautifulsoup4==4.12.3
+ttkbootstrap==1.10.1
+reportlab==4.2.2
+qiskit-ibm-runtime==0.25.0
+bcrypt==4.1.3

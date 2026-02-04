@@ -1,0 +1,527 @@
+[
+  {
+    "timestamp": "2026-02-04T23:01:54",
+    "type": "quantum",
+    "tags": [],
+    "payload": {
+      "counts": {
+        "00": 8,
+        "01": 11,
+        "10": 9,
+        "11": 996
+      },
+      "expected_state": "11",
+      "metrics": {
+        "error_rate": 0.02734375,
+        "success_probability": 0.97265625,
+        "variance": 0.17407846450805664
+      },
+      "noise_level": 0.01,
+      "probabilities": {
+        "00": 0.0078125,
+        "01": 0.0107421875,
+        "10": 0.0087890625,
+        "11": 0.97265625
+      },
+      "shots": 1024
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:54:35",
+    "type": "compare",
+    "tags": [],
+    "payload": {
+      "algorithms": [
+        "grover",
+        "deutsch-jozsa"
+      ],
+      "plot_path": "plots\\compare_grover_vs_deutsch-jozsa.png",
+      "series": {
+        "deutsch-jozsa": [
+          {
+            "error_rate": 1.0,
+            "noise_level": 0.0,
+            "success_probability": 0.0,
+            "variance": 0.0
+          },
+          {
+            "error_rate": 1.0,
+            "noise_level": 0.01,
+            "success_probability": 0.0,
+            "variance": 0.06956125685006133
+          },
+          {
+            "error_rate": 1.0,
+            "noise_level": 0.05,
+            "success_probability": 0.0,
+            "variance": 0.014485660864382377
+          },
+          {
+            "error_rate": 1.0,
+            "noise_level": 0.1,
+            "success_probability": 0.0,
+            "variance": 0.005812704563140869
+          }
+        ],
+        "grover": [
+          {
+            "error_rate": 0.869140625,
+            "noise_level": 0.0,
+            "success_probability": 0.130859375,
+            "variance": 0.00012874603271484375
+          },
+          {
+            "error_rate": 0.87109375,
+            "noise_level": 0.01,
+            "success_probability": 0.12890625,
+            "variance": 0.0031160339355468746
+          },
+          {
+            "error_rate": 0.8837890625,
+            "noise_level": 0.05,
+            "success_probability": 0.1162109375,
+            "variance": 0.0020372867584228516
+          },
+          {
+            "error_rate": 0.919921875,
+            "noise_level": 0.1,
+            "success_probability": 0.080078125,
+            "variance": 0.001374363899230957
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:54:33",
+    "type": "benchmark",
+    "tags": [],
+    "payload": {
+      "benchmarks": [
+        {
+          "error_rate": 1.0,
+          "noise_level": 0.0,
+          "success_probability": 0.0,
+          "variance": 0.0
+        },
+        {
+          "error_rate": 1.0,
+          "noise_level": 0.01,
+          "success_probability": 0.0,
+          "variance": 0.06890963719896048
+        },
+        {
+          "error_rate": 1.0,
+          "noise_level": 0.05,
+          "success_probability": 0.0,
+          "variance": 0.015558615238708858
+        },
+        {
+          "error_rate": 1.0,
+          "noise_level": 0.1,
+          "success_probability": 0.0,
+          "variance": 0.0056828827317125736
+        }
+      ],
+      "csv_path": "plots\\benchmark_deutsch-jozsa.csv",
+      "plot_path": "plots\\benchmark_deutsch-jozsa.png"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:54:18",
+    "type": "compare",
+    "tags": [],
+    "payload": {
+      "algorithms": [
+        "grover",
+        "deutsch-jozsa"
+      ],
+      "plot_path": "plots\\compare_grover_vs_deutsch-jozsa.png",
+      "series": {
+        "deutsch-jozsa": [
+          {
+            "error_rate": 1.0,
+            "noise_level": 0.0,
+            "success_probability": 0.0,
+            "variance": 0.0
+          },
+          {
+            "error_rate": 1.0,
+            "noise_level": 0.01,
+            "success_probability": 0.0,
+            "variance": 0.05938224115315275
+          },
+          {
+            "error_rate": 1.0,
+            "noise_level": 0.05,
+            "success_probability": 0.0,
+            "variance": 0.01704141828748915
+          },
+          {
+            "error_rate": 1.0,
+            "noise_level": 0.1,
+            "success_probability": 0.0,
+            "variance": 0.005777405632866753
+          }
+        ],
+        "grover": [
+          {
+            "error_rate": 0.8818359375,
+            "noise_level": 0.0,
+            "success_probability": 0.1181640625,
+            "variance": 5.91278076171875e-05
+          },
+          {
+            "error_rate": 0.8857421875,
+            "noise_level": 0.01,
+            "success_probability": 0.1142578125,
+            "variance": 0.0031052764892578123
+          },
+          {
+            "error_rate": 0.8876953125,
+            "noise_level": 0.05,
+            "success_probability": 0.1123046875,
+            "variance": 0.0018826723098754883
+          },
+          {
+            "error_rate": 0.923828125,
+            "noise_level": 0.1,
+            "success_probability": 0.076171875,
+            "variance": 0.0012300610542297363
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:53:59",
+    "type": "benchmark",
+    "tags": [],
+    "payload": {
+      "benchmarks": [
+        {
+          "error_rate": 0.8642578125,
+          "noise_level": 0.0,
+          "success_probability": 0.1357421875,
+          "variance": 4.172325134277344e-05
+        },
+        {
+          "error_rate": 0.888671875,
+          "noise_level": 0.01,
+          "success_probability": 0.111328125,
+          "variance": 0.0035821909389337344
+        },
+        {
+          "error_rate": 0.884765625,
+          "noise_level": 0.05,
+          "success_probability": 0.115234375,
+          "variance": 0.0019173622131347656
+        },
+        {
+          "error_rate": 0.9140625,
+          "noise_level": 0.1,
+          "success_probability": 0.0859375,
+          "variance": 0.0014576315879821777
+        }
+      ],
+      "csv_path": "plots\\benchmark_grover.csv",
+      "plot_path": "plots\\benchmark_grover.png"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:53:53",
+    "type": "benchmark",
+    "tags": [],
+    "payload": {
+      "benchmarks": [
+        {
+          "error_rate": 1.0,
+          "noise_level": 0.0,
+          "success_probability": 0.0,
+          "variance": 0.0
+        },
+        {
+          "error_rate": 1.0,
+          "noise_level": 0.01,
+          "success_probability": 0.0,
+          "variance": 0.05760840692463712
+        },
+        {
+          "error_rate": 1.0,
+          "noise_level": 0.05,
+          "success_probability": 0.0,
+          "variance": 0.0152544746346598
+        },
+        {
+          "error_rate": 1.0,
+          "noise_level": 0.1,
+          "success_probability": 0.0,
+          "variance": 0.005701422691345215
+        }
+      ],
+      "csv_path": "plots\\benchmark_deutsch-jozsa.csv",
+      "plot_path": "plots\\benchmark_deutsch-jozsa.png"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:53:48",
+    "type": "benchmark",
+    "tags": [],
+    "payload": {
+      "benchmarks": [
+        {
+          "error_rate": 1.0,
+          "noise_level": 0.0,
+          "success_probability": 0.0,
+          "variance": 0.0
+        },
+        {
+          "error_rate": 1.0,
+          "noise_level": 0.01,
+          "success_probability": 0.0,
+          "variance": 0.17362737655639648
+        },
+        {
+          "error_rate": 1.0,
+          "noise_level": 0.05,
+          "success_probability": 0.0,
+          "variance": 0.12111330032348633
+        },
+        {
+          "error_rate": 1.0,
+          "noise_level": 0.1,
+          "success_probability": 0.0,
+          "variance": 0.07001161575317383
+        }
+      ],
+      "csv_path": "plots\\benchmark_deutsch-jozsa.csv",
+      "plot_path": "plots\\benchmark_deutsch-jozsa.png"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:53:45",
+    "type": "benchmark",
+    "tags": [],
+    "payload": {
+      "benchmarks": [
+        {
+          "error_rate": 1.0,
+          "noise_level": 0.0,
+          "success_probability": 0.0,
+          "variance": 0.0
+        },
+        {
+          "error_rate": 1.0,
+          "noise_level": 0.01,
+          "success_probability": 0.0,
+          "variance": 0.17223167419433594
+        },
+        {
+          "error_rate": 1.0,
+          "noise_level": 0.05,
+          "success_probability": 0.0,
+          "variance": 0.11645936965942383
+        },
+        {
+          "error_rate": 1.0,
+          "noise_level": 0.1,
+          "success_probability": 0.0,
+          "variance": 0.07494783401489258
+        }
+      ],
+      "csv_path": "plots\\benchmark_deutsch-jozsa.csv",
+      "plot_path": "plots\\benchmark_deutsch-jozsa.png"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:53:40",
+    "type": "benchmark",
+    "tags": [],
+    "payload": {
+      "benchmarks": [
+        {
+          "error_rate": 0.0,
+          "noise_level": 0.0,
+          "success_probability": 1.0,
+          "variance": 0.0
+        },
+        {
+          "error_rate": 0.0185546875,
+          "noise_level": 0.01,
+          "success_probability": 0.9814453125,
+          "variance": 0.17834234237670898
+        },
+        {
+          "error_rate": 0.0986328125,
+          "noise_level": 0.05,
+          "success_probability": 0.9013671875,
+          "variance": 0.14156293869018555
+        },
+        {
+          "error_rate": 0.2138671875,
+          "noise_level": 0.1,
+          "success_probability": 0.7861328125,
+          "variance": 0.09590291976928711
+        }
+      ],
+      "csv_path": "plots\\benchmark_grover.csv",
+      "plot_path": "plots\\benchmark_grover.png"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:53:32",
+    "type": "quantum",
+    "tags": [],
+    "payload": {
+      "counts": {
+        "00001": 1,
+        "00010": 1,
+        "00110": 1,
+        "00111": 1,
+        "01001": 1,
+        "01010": 2,
+        "01100": 3,
+        "01101": 1,
+        "01111": 1,
+        "10001": 2,
+        "10010": 2,
+        "10011": 2,
+        "10100": 1,
+        "10101": 1,
+        "10110": 4,
+        "11000": 111,
+        "11001": 109,
+        "11010": 153,
+        "11011": 118,
+        "11100": 138,
+        "11101": 127,
+        "11110": 118,
+        "11111": 126
+      },
+      "expected_state": "11111",
+      "metrics": {
+        "error_rate": 0.876953125,
+        "success_probability": 0.123046875,
+        "variance": 0.0033572544898337795
+      },
+      "noise_level": 0.01,
+      "probabilities": {
+        "00001": 0.0009765625,
+        "00010": 0.0009765625,
+        "00110": 0.0009765625,
+        "00111": 0.0009765625,
+        "01001": 0.0009765625,
+        "01010": 0.001953125,
+        "01100": 0.0029296875,
+        "01101": 0.0009765625,
+        "01111": 0.0009765625,
+        "10001": 0.001953125,
+        "10010": 0.001953125,
+        "10011": 0.001953125,
+        "10100": 0.0009765625,
+        "10101": 0.0009765625,
+        "10110": 0.00390625,
+        "11000": 0.1083984375,
+        "11001": 0.1064453125,
+        "11010": 0.1494140625,
+        "11011": 0.115234375,
+        "11100": 0.134765625,
+        "11101": 0.1240234375,
+        "11110": 0.115234375,
+        "11111": 0.123046875
+      },
+      "shots": 1024
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:53:25",
+    "type": "quantum",
+    "tags": [],
+    "payload": {
+      "counts": {
+        "00000": 2,
+        "00001": 6,
+        "00010": 1,
+        "00011": 5,
+        "00111": 18,
+        "01001": 1,
+        "01011": 9,
+        "01101": 9,
+        "01110": 12,
+        "01111": 961
+      },
+      "expected_state": "0000",
+      "metrics": {
+        "error_rate": 1.0,
+        "success_probability": 0.0,
+        "variance": 0.07814029693603516
+      },
+      "noise_level": 0.01,
+      "oracle_type": "balanced",
+      "probabilities": {
+        "00000": 0.001953125,
+        "00001": 0.005859375,
+        "00010": 0.0009765625,
+        "00011": 0.0048828125,
+        "00111": 0.017578125,
+        "01001": 0.0009765625,
+        "01011": 0.0087890625,
+        "01101": 0.0087890625,
+        "01110": 0.01171875,
+        "01111": 0.9384765625
+      },
+      "shots": 1024
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:53:19",
+    "type": "quantum",
+    "tags": [],
+    "payload": {
+      "counts": {
+        "00": 10,
+        "01": 1014
+      },
+      "expected_state": "0",
+      "metrics": {
+        "error_rate": 1.0,
+        "success_probability": 0.0,
+        "variance": 0.24032974243164062
+      },
+      "noise_level": 0.01,
+      "oracle_type": "balanced",
+      "probabilities": {
+        "00": 0.009765625,
+        "01": 0.990234375
+      },
+      "shots": 1024
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:53:15",
+    "type": "quantum",
+    "tags": [],
+    "payload": {
+      "counts": {
+        "00": 10,
+        "01": 8,
+        "10": 12,
+        "11": 994
+      },
+      "expected_state": "11",
+      "metrics": {
+        "error_rate": 0.029296875,
+        "success_probability": 0.970703125,
+        "variance": 0.1731395721435547
+      },
+      "noise_level": 0.01,
+      "probabilities": {
+        "00": 0.009765625,
+        "01": 0.0078125,
+        "10": 0.01171875,
+        "11": 0.970703125
+      },
+      "shots": 1024
+    }
+  }
+]
